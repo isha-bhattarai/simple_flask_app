@@ -36,9 +36,6 @@ docker build -t simple-flask-app .
 
 ## Run the Docker image
 
-```bash
-docker run -p 5000:5000   -e APP_NAME="HelloWorld"   -e APP_ENV="production"   -e APP_AUTHOR="Jane Doe"   -e SECRET_KEY="super-secret-xyz"   simple-flask-app
-```
 
 # To run it on GitHub Actions
 
